@@ -1,0 +1,52 @@
+.main {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactText {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.inputContainer {
+  margin-bottom: 3rem;
+}
+
+.inputContainer textarea {
+  width: 100%;
+  height: 15rem;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.233);
+  background-color: #fafafa;
+}
+
+.inputContainer button {
+  background-color: black;
+  color: white;
+  width: 40rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.inputContainer input {
+  width: 40rem;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.233);
+  background-color: #fafafa;
+}
+
+.inputContainer label {
+  display: flex;
+  margin-bottom: 1rem;
+}

@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import HomeHeader from "../components/HomeHeader";
 import Navigation from "../components/Navigation";
 import BecomePartner from "../components/BecomePartner";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
 
       <HomeHeader />
       <BecomePartner />
+      <Contact />
     </div>
   );
 }

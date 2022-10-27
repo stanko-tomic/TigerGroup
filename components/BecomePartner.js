@@ -1,5 +1,4 @@
 import styles from "../styles/Partner.module.css";
-import Navigation from "./Navigation";
 
 export default function BecomePartner() {
   return (

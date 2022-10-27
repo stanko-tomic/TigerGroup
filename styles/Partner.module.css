@@ -1,0 +1,21 @@
+.peopleImage {
+  min-width: 100%;
+  background-image: url(/people.webp);
+  background-repeat: repeat-x;
+  min-height: 30rem;
+}
+
+.partnerText {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.partnerText h1 {
+  font-size: 6rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.partnerText p {
+  font-size: 1.3rem;
+}

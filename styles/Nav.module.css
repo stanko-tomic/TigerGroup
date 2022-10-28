@@ -6,9 +6,8 @@
   width: 100%;
   margin: 0 auto;
   padding: 1rem;
+  padding-block: 3rem;
   max-height: 80px;
-  min-width: 100%;
-  width: 100%;
 }
 
 .logo {
@@ -17,7 +16,18 @@
   display: block;
 }
 
-.logo {
+.navItem a {
+  font-size: 1.3rem;
+}
+
+.cta a {
+  font-size: 1.3rem;
+}
+
+.cta {
+  border: 1px solid black;
+  padding: 0.7rem 1.8rem;
+  border-radius: 1rem;
 }
 
 .navMobile {
@@ -26,7 +36,9 @@
 
 .navItems {
   display: flex;
-  gap: 1.3rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem;
 }
 
 .mobileMenu {

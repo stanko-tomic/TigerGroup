@@ -1,0 +1,14 @@
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.heart {
+  width: 2rem;
+  height: 2rem;
+}

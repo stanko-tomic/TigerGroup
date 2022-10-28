@@ -73,4 +73,7 @@
   .inputContainer button {
     width: 100%;
   }
+  .contactText {
+    font-size: 2.2rem;
+  }
 }

@@ -1,0 +1,36 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.main {
+  padding: 2rem;
+  text-align: center;
+}
+
+.workImg img {
+  max-width: 100%;
+}
+
+.workContainer {
+  box-shadow: 12px 12px 96px -14px rgba(0, 0, 0, 0.75);
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.workContent {
+  padding: 2rem;
+}
+
+.workContainer:hover {
+  scale: 1.01;
+}
+
+@media screen and (max-width: 950px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

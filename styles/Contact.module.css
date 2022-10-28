@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-inline: 2rem;
 }
 
 .contactText {
@@ -14,8 +15,16 @@
   gap: 1rem;
 }
 
+.container {
+  max-width: 1200px;
+  width: 100%;
+}
+
 .inputContainer {
   margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .inputContainer textarea {
@@ -29,7 +38,7 @@
 .inputContainer button {
   background-color: black;
   color: white;
-  width: 40rem;
+  width: 100%;
   padding: 0.6rem;
   cursor: pointer;
   font-size: 1.1rem;
@@ -40,13 +49,28 @@
 }
 
 .inputContainer input {
-  width: 40rem;
   padding: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.233);
   background-color: #fafafa;
+  min-width: 100%;
 }
 
 .inputContainer label {
   display: flex;
   margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 950px) {
+  .flex {
+    flex-direction: column;
+  }
+  .inputContainer {
+    margin-bottom: 1rem;
+  }
+  .inputContainer input {
+    width: 100%;
+  }
+  .inputContainer button {
+    width: 100%;
+  }
 }

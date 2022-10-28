@@ -19,3 +19,12 @@
 .partnerText p {
   font-size: 1.3rem;
 }
+
+@media screen and (max-width: 950px) {
+  .partnerText h1 {
+    font-size: 4rem;
+  }
+  .partnerText p {
+    font-size: 1rem;
+  }
+}

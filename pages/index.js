@@ -5,6 +5,9 @@ import HomeHeader from "../components/HomeHeader";
 import Navigation from "../components/Navigation";
 import BecomePartner from "../components/BecomePartner";
 import Contact from "../components/Contact";
+import Companies from "../components/Companies";
+
+const companies = ["/cipherslogo.png", "/cipherslogo.png"];
 
 export default function Home() {
   return (
@@ -16,6 +19,7 @@ export default function Home() {
       </Head>
 
       <HomeHeader />
+      <Companies data={companies} />
       <BecomePartner />
       <Contact />
     </div>

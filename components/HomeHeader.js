@@ -1,12 +1,18 @@
 import styles from "../styles/Home.module.css";
 import Navigation from "./Navigation";
+import { motion } from "framer-motion";
 
 export default function HomeHeader() {
   return (
     <main className={styles.main}>
       <Navigation />
 
-      <div className={styles.flex}>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ ease: "easeOut", duration: 0.5 }}
+        className={styles.flex}
+      >
         <div className={styles.mainContainer}>
           <div className={styles.mainText}>
             <h1>
@@ -24,7 +30,7 @@ export default function HomeHeader() {
             <img src="/test.png" className={styles.mainImg} alt="" />
           </div>
         </div>
-      </div>
+      </motion.div>
     </main>
   );
 }

@@ -24,6 +24,7 @@ export default function Home() {
       <Work />
       <BecomePartner />
       <Contact />
+
       {/* <Footer /> */}
     </div>
   );

@@ -1,8 +1,14 @@
 import styles from "../styles/Work.module.css";
+import { motion } from "framer-motion";
 
 function Work() {
   return (
-    <div className={styles.main}>
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ ease: "easeOut", duration: 0.5 }}
+      className={styles.main}
+    >
       <h1>Our satisfied customers</h1>
       <div className={styles.gridContainer}>
         <div className={styles.workContainer}>
@@ -33,7 +39,7 @@ function Work() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

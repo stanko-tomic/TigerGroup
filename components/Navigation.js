@@ -4,7 +4,7 @@ import { IoCloseSharp } from "react-icons/io5";
 import { useState } from "react";
 
 export default function Navigation() {
-  const [isNavExpanded, setIsNavExpanded] = useState(true);
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
   const contentClassname = isNavExpanded
     ? `${styles["nav-open"]} ${styles.mobileMenu}`
     : styles.mobileMenu;

@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
+  padding-inline: 2rem;
 }
 
 .main {
@@ -27,6 +28,15 @@
 
 .workContainer:hover {
   scale: 1.01;
+}
+
+@media screen and (min-width: 1600px) {
+  .gridContainer {
+    padding-inline: 2rem;
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 950px) {

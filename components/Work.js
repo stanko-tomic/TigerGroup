@@ -13,7 +13,7 @@ function Work() {
       <div className={styles.gridContainer}>
         <div className={styles.workContainer}>
           <div className={styles.workImg}>
-            <img src="/testmockup.webp" alt="" />
+            <img src="/ciphersmockup.jpg" alt="" />
           </div>
           <div className={styles.workContent}>
             <h4>Ciphers</h4>
@@ -25,8 +25,8 @@ function Work() {
             <img src="/testmockup.webp" alt="" />
           </div>
           <div className={styles.workContent}>
-            <h4>Ciphers</h4>
-            <p>E2E Encrypted chat platform</p>
+            <h4>Cafee Bel Gusto</h4>
+            <p>All new coffee brand</p>
           </div>
         </div>
         <div className={styles.workContainer}>
@@ -34,8 +34,8 @@ function Work() {
             <img src="/testmockup.webp" alt="" />
           </div>
           <div className={styles.workContent}>
-            <h4>Ciphers</h4>
-            <p>E2E Encrypted chat platform</p>
+            <h4>The Shot</h4>
+            <p>A boost of energy</p>
           </div>
         </div>
       </div>

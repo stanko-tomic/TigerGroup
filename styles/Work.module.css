@@ -16,6 +16,14 @@
   max-width: 100%;
 }
 
+.workImg_shot img {
+  max-width: 100%;
+}
+
+.workImg_shot {
+  background-color: lightblue;
+}
+
 .workContainer {
   box-shadow: 12px 12px 96px -14px rgba(0, 0, 0, 0.75);
   border-radius: 1rem;

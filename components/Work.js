@@ -22,7 +22,7 @@ function Work() {
         </div>
         <div className={styles.workContainer}>
           <div className={styles.workImg}>
-            <img src="/testmockup.webp" alt="" />
+            <img src="/belgustomockup.png" alt="" />
           </div>
           <div className={styles.workContent}>
             <h4>Cafee Bel Gusto</h4>
@@ -30,8 +30,8 @@ function Work() {
           </div>
         </div>
         <div className={styles.workContainer}>
-          <div className={styles.workImg}>
-            <img src="/testmockup.webp" alt="" />
+          <div className={styles.workImg_shot}>
+            <img src="/shot.png" alt="" />
           </div>
           <div className={styles.workContent}>
             <h4>The Shot</h4>
